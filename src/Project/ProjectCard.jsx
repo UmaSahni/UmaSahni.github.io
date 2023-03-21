@@ -75,10 +75,7 @@ export default ProjectCard
        
         <Heading mt={"2"} >E-Basket</Heading> */}
         
-        
-        
-        
-        
+  
         {/* <Box bg='#2c3e50'   height='30rem'>
           <Image src='https://user-images.githubusercontent.com/112793743/226603742-a02eb018-4043-4a3e-a0c5-3813f70dd4ed.png' ></Image>
         </Box>
