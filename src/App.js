@@ -11,6 +11,7 @@ import Wave from './SmallCompo/Wave';
 import ContactMe from './Components/Contact/ContactMe';
 import Git from './Components/GitHub/Git';
 import GitHubData from './Components/GitHub/GitHubData';
+import AllRoutes from './Components/AllRoutes';
 
 
 
@@ -20,13 +21,9 @@ function App() {
   return (
     <div className="App">
       <Navbar  id="nav-menu" />
-      <Hero></Hero>
-       <Divider/>
-       <Skills/>
-     <GitHubData/>
-      <ProjectCard/>
+      <AllRoutes/>
       
-    <ContactMe/>
+      
    
    
    

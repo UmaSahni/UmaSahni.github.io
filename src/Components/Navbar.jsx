@@ -44,16 +44,19 @@ const Navbar = () => {
           justifyContent="flex-end"
           paddingRight={"10"}
         >
+          <Link  to="/" >
+           Home
+            </Link>
            <Link to="/about" >
            About
             </Link>
-          <Link href="#" fontSize="md">
+          <Link to={"/contact"}>
             Contact
           </Link>
-          <Link href="#" fontSize="md">
+          <Link to={"projects"}  >
             Projects
           </Link>
-          <Link href="#" fontSize="md">
+          <Link  >
             Resume
           </Link>
         </HStack>

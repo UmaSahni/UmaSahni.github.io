@@ -3,8 +3,8 @@ import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 import GitHubCalendar from 'react-github-calendar';
 const GitHubCards = () => {
   return (
-    <div>
-        <GitHubCalendar username="UmaSahni" />
+    <div className="react-activity-calendar" >
+        <GitHubCalendar  username="UmaSahni" />
     </div>
   )
 }

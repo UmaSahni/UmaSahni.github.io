@@ -22,6 +22,7 @@ import SociaIcons from './SociaIcons';
               <Text
                 as={'span'}
                 position={'relative'}
+                id="user-detail-name"
                 _after={{
                   content: "''",
                   width: 'full',
@@ -39,7 +40,7 @@ import SociaIcons from './SociaIcons';
                 Full Stack Web Developer
               </Text>{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+            <Text  id="user-detail-intro" fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
             A Skilled full stack developer and quick learner who can quickly adapt to new environments. 
             </Text>
            
