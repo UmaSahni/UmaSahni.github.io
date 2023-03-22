@@ -13,7 +13,8 @@ import SociaIcons from './SociaIcons';
   
   export default function Hero() {
     return (
-      <Stack mt={"8rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
+     <Center>
+     <Stack mt={"2rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
        
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -63,13 +64,14 @@ import SociaIcons from './SociaIcons';
         </Flex>
        
         <Flex  flex={1}>
-       
+       <Center>
           <Image
           // boxShadow="inset 0 0 10px #322e49, inset 0 0 20px #322e49, inset 0 0 30px #322e49"
           borderRadius={"50%"}
             alt={'Login Image'}
             objectFit={'cover'}
-            boxSize='25rem'
+            boxSize='20rem'
+            backgroundColor={"white"}
             // width="sm"
             // height={"sm"}
             // m="10"
@@ -77,9 +79,10 @@ import SociaIcons from './SociaIcons';
               'https://avatars.githubusercontent.com/u/112793743?v=4'
             }
           />
-         
+         </Center>
         </Flex>
       
       </Stack>
+      </Center>
     );
   }

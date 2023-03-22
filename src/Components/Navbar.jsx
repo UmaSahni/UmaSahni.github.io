@@ -4,17 +4,18 @@ import {
   Flex,
   HStack,
   IconButton,
-  Link,
+  
   useDisclosure,
   VStack,
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box id="nav-menu" >
+    <Box  >
       <Flex
         bg="gray.100"
         w="100%"
@@ -43,12 +44,9 @@ const Navbar = () => {
           justifyContent="flex-end"
           paddingRight={"10"}
         >
-          <Link href="#" fontSize="md">
-            Home
-          </Link>
-          <Link href="#" fontSize="md">
-            About
-          </Link>
+           <Link to="/about" >
+           About
+            </Link>
           <Link href="#" fontSize="md">
             Contact
           </Link>
@@ -78,15 +76,20 @@ const Navbar = () => {
             icon={<CloseIcon />}
           />
           <VStack spacing={4} align="center">
-            <Link href="#" fontSize="md">
-              Home
+            <Link to="/about" >
+           About
             </Link>
-            <Link href="#" fontSize="md">
-              About
-            </Link>
-            <Link href="#" fontSize="md">
-              Contact
-            </Link>
+            
+            
+            {/* // <Link href="#" fontSize="md">
+            //   Home
+            // </Link>
+            // <Link href="#" fontSize="md">
+            //   About
+            // </Link>
+            // <Link href="#" fontSize="md">
+            //   Contact
+            // </Link> */}
           </VStack>
         </VStack>
       )}

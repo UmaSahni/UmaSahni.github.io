@@ -7,6 +7,11 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Saparater from './SmallCompo/Saparater';
 import ProjectCard from './Project/ProjectCard';
+import Wave from './SmallCompo/Wave';
+import ContactMe from './Components/Contact/ContactMe';
+import Git from './Components/GitHub/Git';
+import GitHubData from './Components/GitHub/GitHubData';
+
 
 
 
@@ -14,13 +19,17 @@ import ProjectCard from './Project/ProjectCard';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-       <Hero/>
+      <Navbar  id="nav-menu" />
+      <Hero></Hero>
        <Divider/>
        <Skills/>
-      <Saparater/>
+     <GitHubData/>
       <ProjectCard/>
-  
+      
+    <ContactMe/>
+   
+   
+   
     </div>
   );
 }

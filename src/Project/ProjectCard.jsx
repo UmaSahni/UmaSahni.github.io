@@ -19,7 +19,11 @@ const ProjectCard = () => {
       title:"eBasket",
       discreption:"eBasket is an ecommerce website from which you can purchase shoes. It allows user to search, filter and sort the product.",
     },
-
+    {
+      image:"https://user-images.githubusercontent.com/112793743/221488574-fc59b18e-e9e4-4a3f-826a-d6147735cbaa.png",
+      title:"eBasket",
+      discreption:"eBasket is an ecommerce website from which you can purchase shoes. It allows user to search, filter and sort the product.",
+    },
   ]
   
   
@@ -28,7 +32,7 @@ const ProjectCard = () => {
        
      <Heading m={"3rem"} >Projects</Heading>
        
-   <SimpleGrid  columns={[1, 2, 3]} spacing='40px'>
+   <SimpleGrid  columns={[1, 2, 4]} spacing='40px'>
    
     {
       data.map(({image, title, discreption})=>{
