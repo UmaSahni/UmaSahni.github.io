@@ -76,6 +76,7 @@ import SociaIcons from './SociaIcons';
             // width="sm"
             // height={"sm"}
             // m="10"
+            className="home-img"
             src={
               'https://avatars.githubusercontent.com/u/112793743?v=4'
             }

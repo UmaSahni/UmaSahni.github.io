@@ -5,20 +5,20 @@ import SocialIcons from './SocialIcon'
 import WrapItems from './WrapItems'
 
 const ContactMe = () => {
- 
-    return (
+
+  return (
     <div>
-        <Heading>Contact Me</Heading>
+      <Heading>Contact Me</Heading>
       <Box height={"50vh"} >
-    <WrapItems/>
-      
-  
-    {/* <SocialIcons/> */}
+        <WrapItems />
+
+
+        {/* <SocialIcons/> */}
       </Box>
-      
 
 
-        
+
+
     </div>
   )
 }
