@@ -3,9 +3,11 @@ import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 
 const GitHubStats = () => {
   return (
-    <div src="https://github-readme-stats.vercel.app/api?username=UmaSahni" id="github-streak-stats" >
-        <ReactMarkdown>[![Uma GitHub stats](https://github-readme-stats.vercel.app/api?username=UmaSahni)](https://github.com/anuraghazra/github-readme-stats)</ReactMarkdown>
-    </div>
+    <img
+            className="ht1"
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=UmaSahni&count_private=true"
+          />
   )
 }
 

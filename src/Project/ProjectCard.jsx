@@ -36,7 +36,7 @@ const ProjectCard = () => {
 
 
   return (
-    <div   >
+    <div className="project-card"   >
 
       <Heading m={"3rem"} id="projects" >Projects</Heading>
 
@@ -53,12 +53,12 @@ const ProjectCard = () => {
                 src={image}
               />
               </Link>
-              <Heading mt={"2"} >{title}</Heading>
-              <Text>{discreption}</Text>
-
+              <Heading className="project-title" mt={"2"} >{title}</Heading>
+              <Text className="project-description" >{discreption}</Text>
+                <Text className="project-tech-stack" > HTML, CSS, JavaScript </Text>
               <Stack>
-              <Link to={gitHub} target="_blank" > <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >GitHub</Button> </Link> 
-              <Link to={live}  target="_blank" >   <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >Live</Button></Link> 
+              <Link className="project-deployed-link" to={gitHub} target="_blank" > <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >GitHub</Button> </Link> 
+              <Link className="project-github-link" to={live}  target="_blank" >   <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >Live</Button></Link> 
               </Stack>
 
             </Box>
