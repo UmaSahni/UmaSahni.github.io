@@ -9,7 +9,7 @@ import UmaAbout from "./UmaAbout";
 
 const Home = () => {
   return (
-    <div>
+    <div className="nav-link home" id="home"  >
       <Hero />
       <Divider />
       <Skills />

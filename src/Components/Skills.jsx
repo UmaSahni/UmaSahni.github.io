@@ -6,7 +6,8 @@ import OtherSkill from '../SmallCompo/OtherSkill'
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills" >
+      <div className="nav-link skills" >
     <Heading m={"20"}> Technical Skills</Heading>
     <SimpleGrid columns={[1,1, null, 3]} spacing={10}>
   <Box  height='auto'>
@@ -23,6 +24,7 @@ const Skills = () => {
   </Box>
  
 </SimpleGrid>
+</div>
 </div>
   )
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
         align="center"
         justify="space-between"
         position="fixed"
-       
+       id="nav-menu"
         top="0"
         zIndex="100"
       >
