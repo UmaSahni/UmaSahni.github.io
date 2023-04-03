@@ -8,7 +8,7 @@ const ContactMe = () => {
 
   return (
     <div>
-      <Heading>Contact Me</Heading>
+      <Heading id="contact" >Contact Me</Heading>
       <Box height={"50vh"} >
         <WrapItems />
 

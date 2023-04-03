@@ -44,18 +44,18 @@ const Navbar = () => {
           justifyContent="flex-end"
           paddingRight={"10"}
         >
-          <HashLink  to="/" >
+          <HashLink  to="#" >
            Home
             </HashLink>
-           <HashLink   to="/#about" >
+           <HashLink   to="#about" >
            About
             </HashLink>
-          <Link to={"/#contact"}>
+          <HashLink to={"#contact"}>
             Contact
-          </Link>
-          <Link to={"/#projects"}  >
+          </HashLink>
+          <HashLink to={"#projects"}  >
             Projects
-          </Link>
+          </HashLink>
           <Link  >
             Resume
           </Link>

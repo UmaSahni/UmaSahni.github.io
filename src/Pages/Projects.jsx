@@ -1,11 +1,12 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 import ProjectCard from '../Project/ProjectCard'
 
 const Projects = () => {
   return (
-    <div>
+    <Box  >
       <ProjectCard/>  
-    </div>
+    </Box>
   )
 }
 

@@ -3,7 +3,7 @@ import Hero from '../Components/Hero'
 
 const About = () => {
   return (
-    <section id= "about" >
+    <section >
         <Hero/>
     </section>
   )
