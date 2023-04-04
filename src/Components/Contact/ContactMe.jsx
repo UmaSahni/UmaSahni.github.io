@@ -11,14 +11,8 @@ const ContactMe = () => {
       <Heading   >Contact Me</Heading>
       <Box height={"50vh"} >
         <WrapItems />
-
-
         {/* <SocialIcons/> */}
       </Box>
-
-
-
-
     </div>
   )
 }

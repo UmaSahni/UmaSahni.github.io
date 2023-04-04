@@ -36,8 +36,8 @@ const ProjectCard = () => {
 
 
   return (
-    <div className="project-card"   >
-
+    <div className="project-card"   id="projects"   >
+      <div className="nav-link projects" >
       <Heading m={"3rem"} id="projects" >Projects</Heading>
 
       <SimpleGrid margin="auto" width={"85%"} columns={[1, 2, 2, 4]} spacing='40px'>
@@ -69,7 +69,7 @@ const ProjectCard = () => {
       </SimpleGrid>
 
 
-
+      </div>
     </div>
   )
 }

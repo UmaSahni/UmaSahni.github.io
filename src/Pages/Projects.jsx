@@ -4,7 +4,7 @@ import ProjectCard from '../Project/ProjectCard'
 
 const Projects = () => {
   return (
-    <Box className="nav-link projects" id="projects"  >
+    <Box   >
       <ProjectCard/>  
     </Box>
   )
