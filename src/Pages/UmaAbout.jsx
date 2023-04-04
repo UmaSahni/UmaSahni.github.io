@@ -12,22 +12,24 @@ import Intro from "./About/Intro";
 const UmaAbout = () => {
   return (
     <div style={{ width: "85%", margin: "auto" }}>
-      <Heading id="about">About Me</Heading>
-      <Tabs isFitted variant="enclosed">
+      <Heading mt={"2"} mb={"2"} id="about">About Me</Heading>
+      {/* <Tabs isFitted variant="enclosed">
         <TabList mb="1em">
           <Tab>Introduction</Tab>
           <Tab>Experience</Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
-            <Intro/>
+            
           </TabPanel>
 
           <TabPanel>
             <p>two!</p>
           </TabPanel>
         </TabPanels>
-      </Tabs>
+      </Tabs> */}
+
+      <Intro/>
     </div>
   );
 };

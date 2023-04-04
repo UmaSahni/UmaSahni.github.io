@@ -5,7 +5,7 @@ import SocialIcons from './SocialIcon'
 const WrapItems = () => {
   return (
     <SimpleGrid columns={[1, null, 2]} spacing='40px' >
-    <Box><Image margin={"auto"} width={"21rem"} src="https://i.pinimg.com/564x/0e/f8/b0/0ef8b08b7c3214a8d8df6212ede2a87d.jpg" /></Box>    
+    <Box m={"auto"} ><lottie-player src="https://assets6.lottiefiles.com/packages/lf20_mwawjro9.json"  background="transparent"  speed="1"  style={{width: "400px", height: "400px"}}  loop  autoplay></lottie-player></Box>    
     <Box><SocialIcons/></Box>
     </SimpleGrid>
   )

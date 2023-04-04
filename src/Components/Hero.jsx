@@ -64,7 +64,7 @@ import SociaIcons from './SociaIcons';
           </Stack>
         </Flex>
        
-        <Flex  flex={1}>
+        <Flex alignItems={"center"} justifyContent={"center"} flex={1}>
        <Center>
           <Image
           // boxShadow="inset 0 0 10px #322e49, inset 0 0 20px #322e49, inset 0 0 30px #322e49"
@@ -73,6 +73,7 @@ import SociaIcons from './SociaIcons';
             objectFit={'cover'}
             boxSize='20rem'
             backgroundColor={"white"}
+            
             // width="sm"
             // height={"sm"}
             // m="10"

@@ -57,7 +57,21 @@ const Navbar = () => {
             Projects
           </HashLink>
           <Link  >
-            Resume
+           <a
+              href={"https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"}
+              target="_blank"
+              download="pdf"
+              id="resume-link-1"
+              className="nav-link resume"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
+                )
+              }
+            >
+              Resume
+            </a>
+           
           </Link>
         </HStack>
       </Flex>
@@ -79,20 +93,37 @@ const Navbar = () => {
             icon={<CloseIcon />}
           />
           <VStack spacing={4} align="center">
-            <Link to="/about" >
+            <HashLink  to="#" >
+           Home
+            </HashLink>
+           <HashLink   to="#about" >
            About
-            </Link>
+            </HashLink>
+          <HashLink to={"#contact"}>
+            Contact
+          </HashLink>
+          <HashLink to={"#projects"}  >
+            Projects
+          </HashLink>
+          <Link  >
+           <a
+              href={"https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"}
+              target="_blank"
+              download="pdf"
+              id="resume-link-1"
+              className="nav-link resume"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
+                )
+              }
+            >
+              Resume
+            </a>
+           
+          </Link>
             
             
-            {/* // <Link href="#" fontSize="md">
-            //   Home
-            // </Link>
-            // <Link href="#" fontSize="md">
-            //   About
-            // </Link>
-            // <Link href="#" fontSize="md">
-            //   Contact
-            // </Link> */}
           </VStack>
         </VStack>
       )}
