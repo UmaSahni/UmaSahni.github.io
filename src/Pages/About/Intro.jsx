@@ -16,7 +16,7 @@ const Intro = () => {
           /> */}
           </div>
            </section>
-<div className="nav-link about">
+      <div className="nav-link about">
           <h1
           style={{fontSize : "55px",
           paddingBottom : "10px",
@@ -24,11 +24,7 @@ const Intro = () => {
           >
            
           </h1>
-          {/* <h2 id="user-detail-name">
-            I'm <span>Neha Sahu</span> 
-          </h2> */}
-
-          {/* <h4>Mern Developer</h4> */}
+          
           <Container maxW='container.md' >
           <Text  size={"2"} id="user-detail-intro" style={{ letterSpacing: "1px", }}>
             An enthusiastic Mern Developer with excellent hands-on experience in
@@ -39,10 +35,10 @@ const Intro = () => {
           </Text>
           </Container>
           <br/>
-          <button id="resume-button-2" style={{ marginTop: "5px" }}>
+          <button  id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
-              href={""}
-              download="pdf"
+              href={"Uma_Sahni_Resume.pdf"}
+              download
               id="resume-link-2"
               onClick={() =>
                 window.open(
@@ -53,7 +49,7 @@ const Intro = () => {
               <span>
                 <i className="bx bx-download"></i>
               </span>
-            <Button> Resume </Button>
+            <Button colorScheme='blue' variant='outline' > Resume </Button>
              
             </a>
           </button>

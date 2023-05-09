@@ -12,7 +12,7 @@ import Intro from "./About/Intro";
 const UmaAbout = () => {
   return (
     <div style={{ width: "85%", margin: "auto" }}>
-      <Heading mt={"2"} mb={"2"} id="about">About Me</Heading>
+      <Heading fontFamily={"Inter"} mt={"8"} mb={"8"} id="about">About Me</Heading>
       {/* <Tabs isFitted variant="enclosed">
         <TabList mb="1em">
           <Tab>Introduction</Tab>

@@ -16,7 +16,7 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box  >
+    <Box id="nav-menu" >
       <Flex
       color={"white"}
         bg="#1f1f38"
@@ -26,7 +26,7 @@ const Navbar = () => {
         align="center"
         justify="space-between"
         position="fixed"
-       id="nav-menu"
+       
         top="0"
         zIndex="100"
       >
@@ -59,22 +59,21 @@ const Navbar = () => {
             Projects
           </HashLink>
           
-          <Button
-          onClick={
-            ()=>window.open("https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link")}
-            download="resume.pdf"
-            id="resume-link-1"
-            bg="#1f1f38"
-            as="a"
-            _hover={
-              {
-                bg:"black"
+          <Button colorScheme="blue" variant={"outline"} id="resume-button-1">
+            <a
+              href={"Uma_Sahni_Resume.pdf"}
+              target="_blank"
+              download="pdf"
+              id="resume-link-1"
+              className="nav-link resume"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1SHIq5HgnM7KPANx37JOlgHGh-ivR3F2Z/view?usp=share_link"
+                )
               }
-            }
-          
-          >
-            Resume
-            
+            >
+              Resume
+            </a>
           </Button>
         </HStack>
       </Flex>
@@ -108,23 +107,22 @@ const Navbar = () => {
           <HashLink to={"#projects"}  >
             Projects
           </HashLink>
-          <Link  >
-           <a
-              href={"https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"}
+           <Button colorScheme="blue" variant={"outline"} id="resume-button-1">
+            <a
+              href={"Uma_Sahni_Resume.pdf"}
               target="_blank"
               download="pdf"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
+                  "https://drive.google.com/file/d/1SHIq5HgnM7KPANx37JOlgHGh-ivR3F2Z/view?usp=share_link"
                 )
               }
             >
               Resume
             </a>
-           
-          </Link>
+          </Button>
             
             
           </VStack>

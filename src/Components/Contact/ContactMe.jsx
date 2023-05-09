@@ -7,8 +7,8 @@ import WrapItems from './WrapItems'
 const ContactMe = () => {
 
   return (
-    <div id="contact" className="nav-link contact" >
-      <Heading   >Contact Me</Heading>
+    <div  id="contact" className="nav-link contact" >
+      <Heading fontFamily={"Inter"} mt="8"  >Contact Me</Heading>
       <Box height={"50vh"} >
         <WrapItems />
         {/* <SocialIcons/> */}
