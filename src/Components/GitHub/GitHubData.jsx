@@ -7,9 +7,9 @@ import GitLanguage from './GitLanguage'
 
 const GitHubData = () => {
   return (
-    <div>
-         <Heading>GitHub Statistics</Heading>
-    <div  style={{width:"100%",height:"auto", marginTop:"5rem"}} >
+    <div style={{backgroundColor:"white", padding:"1rem"}} >
+         <Heading mt="8" fontFamily={"Inter"} >GitHub Statistics</Heading>
+    <div  style={{width:"100%",height:"auto",  marginTop:"2rem"}} >
    <Center>
 
   

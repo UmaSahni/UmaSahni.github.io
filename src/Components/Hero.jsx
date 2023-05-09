@@ -14,7 +14,7 @@ import SociaIcons from './SociaIcons';
   export default function Hero() {
     return (
      <Center>
-     <Stack mt={"2rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
+     <Stack paddingTop={"4"} mt={"2rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
        
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>

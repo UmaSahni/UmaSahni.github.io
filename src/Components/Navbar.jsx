@@ -1,12 +1,13 @@
 import React from "react";
 import {
   Box,
+  Button,
   Flex,
   HStack,
   IconButton,
-  
   useDisclosure,
   VStack,
+  Link as Clink
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
@@ -17,7 +18,8 @@ const Navbar = () => {
   return (
     <Box  >
       <Flex
-        bg="gray.100"
+      color={"white"}
+        bg="#1f1f38"
         w="100%"
         px={4}
         py={4}
@@ -56,23 +58,24 @@ const Navbar = () => {
           <HashLink to={"#projects"}  >
             Projects
           </HashLink>
-          <Link  >
-           <a
-              href={"https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"}
-              target="_blank"
-              download="pdf"
-              id="resume-link-1"
-              className="nav-link resume"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
-                )
+          
+          <Button
+          onClick={
+            ()=>window.open("https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link")}
+            download="resume.pdf"
+            id="resume-link-1"
+            bg="#1f1f38"
+            as="a"
+            _hover={
+              {
+                bg:"black"
               }
-            >
-              Resume
-            </a>
-           
-          </Link>
+            }
+          
+          >
+            Resume
+            
+          </Button>
         </HStack>
       </Flex>
       {isOpen && (

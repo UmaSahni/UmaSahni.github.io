@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Center, Container, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, ButtonGroup, Center, Container, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import {Link} from "react-router-dom"
 const ProjectCard = () => {
@@ -42,13 +42,13 @@ const ProjectCard = () => {
   return (
     <div className="project-card"   id="projects"   >
       <div className="nav-link projects" >
-      <Heading m={"3rem"} id="projects" >Projects</Heading>
+      <Heading m={"3rem"} fontFamily={"Inter"} id="projects" >Projects</Heading>
 
       <SimpleGrid margin="auto" width={"85%"} columns={[1, 2, 2, 4]} spacing='40px'>
 
         {
           data.map(({ image, title, discreption , gitHub, live, tech}) => {
-            return <Box mr={"auto"} borderRadius={"20"} p={"5"} boxShadow=" rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;" height='30rem'>
+            return <Box bg="white" mr={"auto"} borderRadius={"20"} p={"5"} boxShadow=" rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;" height='auto'>
              <Link to={live} target="_blank" >
               <Image
                 _hover={{ bg: "gray.100", color: " white", transform: "scale(1.11)", }}
@@ -58,12 +58,14 @@ const ProjectCard = () => {
               />
               </Link>
               <Heading size={"md"} className="project-title" mt={"2"} >{title}</Heading>
-              <Text className="project-description" >{discreption}</Text>
+              <Text  className="project-description" >{discreption}</Text>
                 <Text className="project-tech-stack" >{tech}  </Text>
-              <Stack>
+              <Box>
+              <Stack   >
               <Link className="project-deployed-link" to={gitHub} target="_blank" > <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >GitHub</Button> </Link> 
               <Link className="project-github-link" to={live}  target="_blank" >   <Button p={"2"} width={"100%"} variant='outline' colorScheme='blue' >Live</Button></Link> 
               </Stack>
+              </Box>
 
             </Box>
 
