@@ -89,7 +89,7 @@ import {
               heading={'Heading'}
               icon={<Icon as={FcDonate} w={10} h={10} />}
               description={
-                'Lorem ipsum dolor sit amet catetur, adipisicing elit.'
+                'Lorem ipsum dolor sit amet catetur, adipisigfhgcing elit.'
               }
               href={'#'}
             />
