@@ -10,7 +10,7 @@ import {
   Link as Clink
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { Link } from "react-router-dom";
+
 import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -26,7 +26,7 @@ const Navbar = () => {
         align="center"
         justify="space-between"
         position="fixed"
-       
+        id="nav-menu"
         top="0"
         zIndex="100"
       >
@@ -45,7 +45,7 @@ const Navbar = () => {
           display={{ base: "none", md: "flex" }}
           justifyContent="flex-end"
           paddingRight={"10"}
-          id="nav-menu"
+          
         >
           <HashLink  to="#home" >
            Home

@@ -13,7 +13,7 @@ import SociaIcons from './SociaIcons';
   
   export default function Hero() {
     return (
-     <Center className="nav-link home" >
+     <Center className="nav-link home" id="home"  >
      <Stack paddingTop={"4"} mt={"2rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
        
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
