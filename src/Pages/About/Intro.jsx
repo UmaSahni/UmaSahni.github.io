@@ -15,7 +15,7 @@ const Intro = () => {
           >
            
           </h1>
-          <h3 id="user-detail-name"  > Uma Sahni </h3>
+          <h3 id="user-detail-name"  > hi   Uma Sahni </h3>
         
           <Text id="user-detail-intro"   size={"2"}  style={{ letterSpacing: "1px", }}>
             An enthusiastic Mern Developer with excellent hands-on experience in

@@ -21,6 +21,7 @@ function App() {
   return (
     <Box
      backgroundImage={"alter.svg"}
+     backgroundSize={"20px" }
             bgRepeat={"repeat"}
             // bgSize="cover"
     className="App">
