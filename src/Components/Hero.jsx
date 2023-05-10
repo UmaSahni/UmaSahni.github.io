@@ -13,7 +13,7 @@ import SociaIcons from './SociaIcons';
   
   export default function Hero() {
     return (
-     <Center>
+     <Center className="nav-link home" >
      <Stack paddingTop={"4"} mt={"2rem"} minH={'20vh'} direction={{ base: 'column', md: 'row' }}>
        
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
@@ -22,7 +22,7 @@ import SociaIcons from './SociaIcons';
               <Text
                 as={'span'}
                 position={'relative'}
-                id="user-detail-name"
+                 
                 _after={{
                   content: "''",
                   width: 'full',
@@ -33,6 +33,7 @@ import SociaIcons from './SociaIcons';
                   bg: 'blue.400',
                   zIndex: -1,
                 }}>
+                 
                 Uma Sahni
               </Text>
               <br />{' '}
@@ -40,7 +41,7 @@ import SociaIcons from './SociaIcons';
                 Full Stack Web Developer
               </Text>{' '}
             </Heading>
-            <Text  id="user-detail-intro" fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+            <Text  fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
             A Skilled full stack developer and quick learner who can quickly adapt to new environments. 
             </Text>
            

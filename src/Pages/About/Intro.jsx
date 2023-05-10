@@ -1,21 +1,12 @@
-import { Button, Container, Text } from '@chakra-ui/react'
+import { Button, Container, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
-      <section className="about section" id="about">
-        <div 
-        className="about-img" 
-     
-        >
-          {/* <img 
-          className="home-img"
-           src={""} alt="home-image" 
-        
-          /> */}
-          </div>
-           </section>
+    <div id="about" className="about section" >
+      
+           <Heading  fontFamily={"Inter"} mt={"8"} mb={"8"} >About Me</Heading>
+
       <div className="nav-link about">
           <h1
           style={{fontSize : "55px",
@@ -24,16 +15,17 @@ const Intro = () => {
           >
            
           </h1>
-          
-          <Container maxW='container.md' >
-          <Text  size={"2"} id="user-detail-intro" style={{ letterSpacing: "1px", }}>
+          <h3 id="user-detail-name"  > Uma Sahni </h3>
+        
+          <Text id="user-detail-intro" h="100vh"  size={"2"}  style={{ letterSpacing: "1px", }}>
             An enthusiastic Mern Developer with excellent hands-on experience in
             developing scalable websites and application using a wide range of
             frontend and backend skills like HTML, CSS, JavaScript, React,
             Redux and Node Js. Highly skilled in design, development and
             implementation of functional specifications.
+
           </Text>
-          </Container>
+          
           <br/>
           <button  id="resume-button-2" style={{ marginTop: "5px" }}>
             <a

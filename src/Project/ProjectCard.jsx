@@ -40,7 +40,7 @@ const ProjectCard = () => {
 
 
   return (
-    <div className="project-card"   id="projects"   >
+    <div    id="projects"   >
       <div className="nav-link projects" >
       <Heading m={"3rem"} fontFamily={"Inter"} id="projects" >Projects</Heading>
 
@@ -48,7 +48,7 @@ const ProjectCard = () => {
 
         {
           data.map(({ image, title, discreption , gitHub, live, tech}) => {
-            return <Box bg="white" mr={"auto"} borderRadius={"20"} p={"5"} boxShadow=" rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;" height='auto'>
+            return <Box className="project-card" bg="white" mr={"auto"} borderRadius={"20"} p={"5"} boxShadow=" rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;" height='auto'>
              <Link to={live} target="_blank" >
               <Image
                 _hover={{ bg: "gray.100", color: " white", transform: "scale(1.11)", }}

@@ -16,7 +16,7 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box id="nav-menu" >
+    <Box  >
       <Flex
       color={"white"}
         bg="#1f1f38"
@@ -45,8 +45,9 @@ const Navbar = () => {
           display={{ base: "none", md: "flex" }}
           justifyContent="flex-end"
           paddingRight={"10"}
+          id="nav-menu"
         >
-          <HashLink  to="#" >
+          <HashLink  to="#home" >
            Home
             </HashLink>
            <HashLink   to="#about" >
@@ -68,7 +69,7 @@ const Navbar = () => {
               className="nav-link resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1SHIq5HgnM7KPANx37JOlgHGh-ivR3F2Z/view?usp=share_link"
+                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
                 )
               }
             >
@@ -95,7 +96,7 @@ const Navbar = () => {
             icon={<CloseIcon />}
           />
           <VStack spacing={4} align="center">
-            <HashLink  to="#" >
+            <HashLink  to="#home" >
            Home
             </HashLink>
            <HashLink   to="#about" >
@@ -116,7 +117,7 @@ const Navbar = () => {
               className="nav-link resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1SHIq5HgnM7KPANx37JOlgHGh-ivR3F2Z/view?usp=share_link"
+                  "https://drive.google.com/file/d/1dRHZrEma-kfLiYj-j_McunCJfHseC3O3/view?usp=share_link"
                 )
               }
             >
