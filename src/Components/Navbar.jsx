@@ -64,7 +64,7 @@ const Navbar = () => {
             <a
               href={"Uma_Sahni_Resume.pdf"}
               target="_blank"
-              download="pdf"
+              download="Uma_Sahni_Resume.pdf"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>
