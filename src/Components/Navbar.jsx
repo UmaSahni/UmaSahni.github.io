@@ -64,7 +64,7 @@ const Navbar = () => {
             <a
               href={"Uma_Sahni_Resume.pdf"}
               target="_blank"
-              download="Uma_Sahni_Resume.pdf"
+              download="Uma-Sahni-Resume.pdf"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>
@@ -112,7 +112,7 @@ const Navbar = () => {
             <a
               href={"Uma_Sahni_Resume.pdf"}
               target="_blank"
-              download="Uma_Sahni_Resume.pdf"
+              download="Uma-Sahni-Resume.pdf"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>

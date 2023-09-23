@@ -35,7 +35,7 @@ const Intro = () => {
           <button  id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               href={"Uma_Sahni_Resume.pdf"}
-              download
+              download="Uma-Sahni-Resume.pdf"
               id="resume-link-2"
               onClick={() =>
                 window.open(
