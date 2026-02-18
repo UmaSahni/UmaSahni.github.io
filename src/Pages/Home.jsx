@@ -1,4 +1,3 @@
-import { Divider } from "@chakra-ui/react";
 import React from "react";
 import ContactMe from "../Components/Contact/ContactMe";
 import GitHubData from "../Components/GitHub/GitHubData";
@@ -9,11 +8,10 @@ import UmaAbout from "./UmaAbout";
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <Hero />
-      <Divider />
       <Skills />
-      <GitHubData />
+      {/* <GitHubData /> */}
       <ProjectCard />
       <UmaAbout />
       <ContactMe />
